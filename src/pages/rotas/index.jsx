@@ -35,7 +35,6 @@ export default function Rotas() {
         alignItems:"flex-start"
       }}>
        <button onClick={navegacaoComParams}>Params</button>
-
         <button onClick={() => router.push('/rotas/115/buscar')}>Buscar</button>
         <button onClick={() => navegacaoSimples('/rotas/115/daniel')}>Daniel</button>
 
